@@ -1,0 +1,56 @@
+	our{
+			font-size: 25px;
+			font-family: arial, tahoma, times;
+			color: black;
+			font-style: oblique;
+		}
+	our.new::after {
+      content: "Новое!";
+      color: #333; 
+      background-color: #fc0; 
+      font-size: 90%; 
+      padding: 2px; 
+    }
+    	point{
+		font-size: 2;
+		font-family: arial;
+		color: black;
+		font-weight: 1000;
+	}
+	 position{
+	 	position: absolute;
+	 	bottom: 200px;
+	 	left: 355px;
+	 	margin: 0px;
+	 	padding: 0px;
+	 }
+	 href{
+	 	font-size: 30px;
+	 	font-family: tahoma;
+	 	color: black;
+	 	cursor: pointer;
+	 	text-decoration: none;
+	 	align-content: right;
+	 }
+	 diso{
+	 	font-size: 20px;
+	 	padding-left: 10px;
+	 	padding-right: 10px;
+	 	color: black;
+	 	font-family: tahoma;
+	 	text-align: right;
+	 }
+	 our:hover{
+		text-decoration-color: red;
+		font-size: 30px;
+	 }
+	 our::selection{
+	 	color: #ff0;
+	 	background: #000;
+	 }
+	 H1:hover{
+	 	color: #0083bd;
+		text-shadow:  #5dc8e5 0 0 45px;
+		text-decoration: none;
+		cursor: default;
+	 }

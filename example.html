@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link href='images.jpg' rel='icon'>
+	<title>Немного о нас</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body background="https://webfon.top/wp-content/uploads/2016/10/light-board-1.jpg"> 
+<div name="header">
+		<a href="new.html"><input align="left" style="position: absolute;left: 7px" type="image" src="dolm.jpg" height="120" width="400"></a>
+		<input type="image" align="right" src="work.png" style="border-style: groove; cursor: auto; position: fixed; right: 7px">
+	</div>
+<style type="text/css">
+		H1{
+			font-size: 30px;
+			font-family: Arial, Verdana, sans-serif;
+			color: black;
+		}
+	our{
+		font-size: 10;
+		font-family: arial;
+		color: black;
+	}
+	Holm{
+		font-size: 15;
+		font-family: Arial, Verdana, sans-serif;
+		color: black;
+		font-weight: 800;
+		}
+	point{
+		font-size: 2;
+		font-family: arial;
+		color: black;
+		font-weight: 1000;
+	}
+	p.new::before
+	{
+		@import url(galka.png);
+	}
+</style>
+<body>
+	<div align = "center" style="margin-top: 25px"><h1>Вас приветствует компания <br>СТРОЙДОМ</h1></div>
+	<br>
+	<br>
+<div name= "text">
+    	<p style="margin-left: 20%; margin-right: 20%; margin-top: 15px; font-size: 10; font-weight: 300; line-height: 25px; text-align: justify;">
+    	<?php $textfile = "Text.txt"; 
+
+	if ($quotes = @file("$textfile")) {$quote = rand(0, sizeof($quotes)-1);
+
+echo $quotes[$quote]; 
+
+}else{echo ("Нет контента");} 
+?>
+
+    	</p>
+</div>
+	<div style="margin: 0px 20%"><br>
+	<input align="center" style="cursor: auto;" type="image" src="galka.png" height="20" width="30">
+	<Holm>Oпытные специалисты</Holm><br>
+	<p class="new">
+	<input align="center" style="cursor: auto;" type="image" src="galka.png" height="20" width="30">
+		<Holm title="Try">Качественные материалы</Holm>
+	</p>
+	<p class="new">
+	<input align="center" style="cursor: auto;" type="image" src="galka.png" height="20" width="30">
+		<Holm>Достойные цены</Holm>
+	</p>
+	<p class="new">
+	<input align="center" style="cursor: auto;" type="image" src="galka.png" height="20" width="30">
+		<Holm>Гарантия на все работы - 1 год</Holm>
+	</p>
+	<p class="new">
+	<input align="center" style="cursor: auto;" type="image" src="galka.png" height="20" width="30">
+		<Holm>Соблюдение сроков</Holm>
+	</p>
+</div>
+<hr align="center" style="color: red">
+<div align = "center" style="font-weight: 1000"><point>МЫ БЕРЕМ НА СЕБЯ ОБЯЗАННОСТЬ:</point></div>
+<ul style="line-height: 35px">
+	<li>
+		<our>Просчет ремонтных робот и материалов;</our>
+	</li>
+	<li>
+		<our>дизайн-планировка данного помещения;</our>
+	</li>
+	<li>
+		<our>закупка,доставка на обьект стройматериалов;</our>
+	</li>
+	<li>
+		<our>выполнение ремонтных робот согласно составленного плана;</our>
+	</li>
+	<li>
+		<our>уборка данного помещения;</our>
+	</li>
+	<li>
+		<our>Сдача обьекта в поставленые сроки.</our>
+	</li>
+</ul>
+<div align="middle" align="bottom"><point>©2013-2018 Ремонтная компания <<СтройДом>></point></div>
+</body>
+</html>
